@@ -58,36 +58,28 @@
 
 ```bash
 .
-├── EDA.ipynb
-├── README.md
-├── Wrap-up Report.pdf
-├── data_aug
-│   ├── back_translation.py
-│   ├── data_augmenation_EDA.ipynb
-│   ├── kogpt3_test.py
-│   └── kullm_test.py
-├── entity_tagging
-│   ├── Prompt.py
-│   └── typed_entity_punct.py
-├── huggingface_trainer
-│   ├── inference.py
-│   ├── load_data.py
-│   └── train.py
-├── rule_based
-│   ├── inference.py
-│   ├── load_data.py
-│   └── train.py
-├── soft_vote.ipynb
-├── soft_vote.py
-├── torch-train
-│   ├── data_handling.py
-│   ├── data_handling_tagging.py
-│   ├── inference.py
-│   ├── modeling.py
-│   ├── models.py
-│   ├── train.py
-│   └── utils.py
-└── train_validation_split.ipynb
+|-- README.md
+|-- Special_character_check.ipynb
+|-- back_translation.ipynb
+|-- category_per_cnt.ipynb
+|-- category_word_add.ipynb
+|-- data
+|   |-- culture.txt
+|   |-- economy.txt
+|   |-- it_science.txt
+|   |-- politics.txt
+|   |-- society.txt
+|   |-- sport.txt
+|   |-- train_special_characters.csv
+|   `-- world.txt
+|-- error_detection.ipynb
+|-- functions.py
+|-- g2pk.ipynb
+|-- hanja.ipynb
+|-- kmeans.ipynb
+|-- sentence_similarty.py
+|-- special_character.ipynb
+`-- wrap-up_report.pdf
 ```
 
 # 🍸 Leaderboard
